@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html" ; charset="utf-8" />
+    <meta name="viewport" content="user_scalable=no, width=device-width" />
+    <title></title>
+    <link
+      href="ex08_moblie.css"
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (max-width:799px)"
+    />
+    <link
+      href="ex08_desktop_pc.css"
+      rel="stylesheet"
+      type="text/css"
+      media="screen and (min-width:800px)"
+    />
+    <style type="text/css">
+      @font-face {
+        font-family: NanumSquareRound;
+        src: url("./NanumSquareRoundR.ttf");
+        font-weight: normal;
+      }
+      @font-face {
+        font-family: NanumSquareRound;
+        src: url("./NanumSquareRoundB.ttf");
+        font-weight: bold;
+      }
+
+      p {
+        font-family: NanumSquareRound;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 style="font-family: NanumSquareRound">미디어 쿼리 연습</h1>
+    <div id="pc_view">
+      <h2>데스크탑 pc 화면</h2>
+      <p>브라우저의 너비를 800px보다 작게 줄여보세요.</p>
+      <p>배경이 검정색에 글자가 흰색으로 바뀔 겁니다.</p>
+    </div>
+    <div id="moblie_view">
+      <h2 style="font-family: NanumSquareRound">모바일 화면</h2>
+      <p>브라우저의 너비를 800px보다 크게 키워보세요.</p>
+      <p>배경이 흰색에 글자가 검정색으로 바뀔 겁니다.</p>
+    </div>
+  </body>
+</html>

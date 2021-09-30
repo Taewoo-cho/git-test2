@@ -1,0 +1,9 @@
+@charset "utf-08";
+
+body {
+    background-color: #fff;
+}
+
+#moblie_view {
+    display : none; /* 모바일 영역은 &nbsp; 화면에서 생략
+}

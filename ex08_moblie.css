@@ -1,0 +1,11 @@
+@charset "utf-08";
+
+body {
+    color: #FFF;
+    background-color: #000;
+    
+}
+
+#pc_view {
+    display : none;
+}

@@ -8,3 +8,5 @@
 - 소스 컨트롤에서 commit 저장하기(add + commit)
 - index2.html 추가
 - 삭제 후 원래html추가
+
+* https://hong-rang.github.io/git-test2/ 호스팅주소
